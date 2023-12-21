@@ -8,22 +8,22 @@ The challenge is to build a Node.js command-line application that takes in user 
 
   ## Table of Contents 
   
-  - [User Story] (#story)
+  - [User Story] (#about)
   - [Acceptance Criteria] (#acceptance)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
   - [License](#license)
 
-  ## About
 
-User Story
+
+##User Story
 
 AS a freelance web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to pay a graphic designer
 
-Acceptance Criteria
+##Acceptance Criteria
 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for text
