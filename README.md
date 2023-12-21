@@ -52,11 +52,16 @@ You will need to install node.js, jest version 29.7.0, and inquirer version 8.2.
  https://drive.google.com/file/d/1ph3zQdimOuzr6i2EJAxEXn7TDiOes_-I/view
 
  ## Screenshots 
-1. Command Line 
+1. Command Line
+   
 ![Screen Shot 2023-12-20 at 10 02 56 PM](https://github.com/cmfyoung/SVG-Logo-Maker/assets/150183426/e0b72ffa-47b5-4230-8ed8-b1fee6594413)
+
 2. Test 
+
 ![Screen Shot 2023-12-20 at 10 03 33 PM](https://github.com/cmfyoung/SVG-Logo-Maker/assets/150183426/65a7ab6d-84ee-4eb8-98f3-bd10a2ecdff2)
+
 3. Generated SVG
+   
 <img width="293" alt="Screen Shot 2023-12-20 at 10 04 03 PM" src="https://github.com/cmfyoung/SVG-Logo-Maker/assets/150183426/3ee31909-2d48-4762-a474-a267da482f94">
 
  
