@@ -1,7 +1,10 @@
+//fs and inquirer dependencies  
 const fs = require('fs');
 const inquirer = require('inquirer');
+//Imported classes from shapes.js
 const { Circle, Triangle, Square } = require("./lib/shapes.js");
 
+//User Prompt 
 inquirer.prompt ([
 {
     type: 'input',
@@ -25,10 +28,11 @@ inquirer.prompt ([
     name: 'bgcolor',
 },    
 ])
-
+//User response after input 
 .then ((response) => {
     console.log(response)
 
+//Creating the shapes using switch statement and case clauses
 let svg;
 switch (response.shape) {
     case 'Triangle':
@@ -41,7 +45,8 @@ switch (response.shape) {
         svg = new Square(response.initials, response.color, response.bgcolor);
         break;
 }
-    
+
+//Writing the newly generated SVG to a file
     
 return fs.writeFile('logo.svg', svg.render(), (err) => {
     if (err) throw err;
