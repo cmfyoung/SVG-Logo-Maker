@@ -32,13 +32,13 @@ inquirer.prompt ([
 let svg;
 switch (response.shape) {
     case 'Triangle':
-        svg = new Triangle(response);
+        svg = new Triangle(response.initials, response.color, response.bgcolor);
         break;
     case 'Circle':
-        svg = new Circle(response);
+        svg = new Circle(response.initials, response.color, response.bgcolor);
         break;
     case 'Square':
-        svg = new Square(response);
+        svg = new Square(response.initials, response.color, response.bgcolor);
         break;
 }
     
